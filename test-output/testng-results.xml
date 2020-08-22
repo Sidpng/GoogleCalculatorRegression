@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="32" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="99697" started-at="2020-08-22T19:04:00Z" finished-at="2020-08-22T19:05:39Z">
+    <groups>
+    </groups>
+    <test name="Regression Tests" duration-ms="99697" started-at="2020-08-22T19:04:00Z" finished-at="2020-08-22T19:05:39Z">
+      <class name="com.GoogleCalculatorRegression.tests.InverseCalculations">
+        <test-method status="PASS" signature="TC_15_inverseCosCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_15_inverseCosCheck" duration-ms="3782" started-at="2020-08-22T19:05:03Z" finished-at="2020-08-22T19:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15_inverseCosCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-22T19:05:07Z" finished-at="2020-08-22T19:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_15_inverseCosCheck status=SUCCESS method=InverseCalculations.TC_15_inverseCosCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_16_tenToPowerOf()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_16_tenToPowerOf" duration-ms="2401" started-at="2020-08-22T19:05:07Z" finished-at="2020-08-22T19:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16_tenToPowerOf -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:05:09Z" finished-at="2020-08-22T19:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_16_tenToPowerOf status=SUCCESS method=InverseCalculations.TC_16_tenToPowerOf()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_17_squareCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_17_squareCheck" duration-ms="2741" started-at="2020-08-22T19:05:09Z" finished-at="2020-08-22T19:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_squareCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-08-22T19:05:12Z" finished-at="2020-08-22T19:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_17_squareCheck status=SUCCESS method=InverseCalculations.TC_17_squareCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_18_inverseSinCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_18_inverseSinCheck" duration-ms="2867" started-at="2020-08-22T19:05:12Z" finished-at="2020-08-22T19:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_inverseSinCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-08-22T19:05:15Z" finished-at="2020-08-22T19:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_18_inverseSinCheck status=SUCCESS method=InverseCalculations.TC_18_inverseSinCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_19_inverseTanCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_19_inverseTanCheck" duration-ms="2436" started-at="2020-08-22T19:05:15Z" finished-at="2020-08-22T19:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_inverseTanCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:05:17Z" finished-at="2020-08-22T19:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_19_inverseTanCheck status=SUCCESS method=InverseCalculations.TC_19_inverseTanCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_20_exponentialCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="TC_20_exponentialCheck" duration-ms="3181" started-at="2020-08-22T19:05:17Z" finished-at="2020-08-22T19:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20_exponentialCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-22T19:05:20Z" finished-at="2020-08-22T19:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_20_exponentialCheck status=SUCCESS method=InverseCalculations.TC_20_exponentialCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.InverseCalculations@23986957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.GoogleCalculatorRegression.tests.InverseCalculations -->
+      <class name="com.GoogleCalculatorRegression.tests.AdvancedCalculations">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="reportSetup" is-config="true" duration-ms="7" started-at="2020-08-22T19:04:00Z" finished-at="2020-08-22T19:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="setup" is-config="true" duration-ms="26723" started-at="2020-08-22T19:04:00Z" finished-at="2020-08-22T19:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_06_SinCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_06_SinCheck" duration-ms="4759" started-at="2020-08-22T19:04:27Z" finished-at="2020-08-22T19:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_SinCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-08-22T19:04:31Z" finished-at="2020-08-22T19:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06_SinCheck status=SUCCESS method=AdvancedCalculations.TC_06_SinCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_07_CosCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_07_CosCheck" duration-ms="3303" started-at="2020-08-22T19:04:31Z" finished-at="2020-08-22T19:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_CosCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:04:35Z" finished-at="2020-08-22T19:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07_CosCheck status=SUCCESS method=AdvancedCalculations.TC_07_CosCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_08_TanCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_08_TanCheck" duration-ms="4017" started-at="2020-08-22T19:04:35Z" finished-at="2020-08-22T19:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_TanCheck -->
+        <test-method status="PASS" signature="TC_09_factorialCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_09_factorialCheck" duration-ms="2364" started-at="2020-08-22T19:04:39Z" finished-at="2020-08-22T19:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_factorialCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:04:39Z" finished-at="2020-08-22T19:04:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08_TanCheck status=SUCCESS method=AdvancedCalculations.TC_08_TanCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_10_parenthesisCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_10_parenthesisCheck" duration-ms="4652" started-at="2020-08-22T19:04:41Z" finished-at="2020-08-22T19:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_parenthesisCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:04:41Z" finished-at="2020-08-22T19:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_09_factorialCheck status=SUCCESS method=AdvancedCalculations.TC_09_factorialCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:04:46Z" finished-at="2020-08-22T19:04:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_10_parenthesisCheck status=SUCCESS method=AdvancedCalculations.TC_10_parenthesisCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_11_logCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_11_logCheck" duration-ms="3405" started-at="2020-08-22T19:04:46Z" finished-at="2020-08-22T19:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_logCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-22T19:04:49Z" finished-at="2020-08-22T19:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_11_logCheck status=SUCCESS method=AdvancedCalculations.TC_11_logCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_12_naturalLogCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_12_naturalLogCheck" duration-ms="4003" started-at="2020-08-22T19:04:49Z" finished-at="2020-08-22T19:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_naturalLogCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-08-22T19:04:53Z" finished-at="2020-08-22T19:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12_naturalLogCheck status=SUCCESS method=AdvancedCalculations.TC_12_naturalLogCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_13_squareRootCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_13_squareRootCheck" duration-ms="3584" started-at="2020-08-22T19:04:53Z" finished-at="2020-08-22T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13_squareRootCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-08-22T19:04:57Z" finished-at="2020-08-22T19:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_13_squareRootCheck status=SUCCESS method=AdvancedCalculations.TC_13_squareRootCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_14_piCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="TC_14_piCheck" duration-ms="6096" started-at="2020-08-22T19:04:57Z" finished-at="2020-08-22T19:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14_piCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-08-22T19:05:03Z" finished-at="2020-08-22T19:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_14_piCheck status=SUCCESS method=AdvancedCalculations.TC_14_piCheck()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-22T19:05:39Z" finished-at="2020-08-22T19:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownExtent()[pri:0, instance:com.GoogleCalculatorRegression.tests.AdvancedCalculations@4c15e7fd]" name="tearDownExtent" is-config="true" duration-ms="1625" started-at="2020-08-22T19:05:40Z" finished-at="2020-08-22T19:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- com.GoogleCalculatorRegression.tests.AdvancedCalculations -->
+      <class name="com.GoogleCalculatorRegression.tests.SimpleCalculations">
+        <test-method status="PASS" signature="TC_01_Addition()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="TC_01_Addition" duration-ms="3446" started-at="2020-08-22T19:05:20Z" finished-at="2020-08-22T19:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Addition -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-08-22T19:05:24Z" finished-at="2020-08-22T19:05:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Addition status=SUCCESS method=SimpleCalculations.TC_01_Addition()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_03_Multiply()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="TC_03_Multiply" duration-ms="4449" started-at="2020-08-22T19:05:24Z" finished-at="2020-08-22T19:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Multiply -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-22T19:05:28Z" finished-at="2020-08-22T19:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_Multiply status=SUCCESS method=SimpleCalculations.TC_03_Multiply()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_04_Divide()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="TC_04_Divide" duration-ms="3612" started-at="2020-08-22T19:05:28Z" finished-at="2020-08-22T19:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Divide -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-22T19:05:32Z" finished-at="2020-08-22T19:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04_Divide status=SUCCESS method=SimpleCalculations.TC_04_Divide()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_05_Percent()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="TC_05_Percent" duration-ms="2911" started-at="2020-08-22T19:05:32Z" finished-at="2020-08-22T19:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Percent -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-22T19:05:35Z" finished-at="2020-08-22T19:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05_Percent status=SUCCESS method=SimpleCalculations.TC_05_Percent()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC__02_Subtraction()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="TC__02_Subtraction" duration-ms="4843" started-at="2020-08-22T19:05:35Z" finished-at="2020-08-22T19:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC__02_Subtraction -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-08-22T19:05:39Z" finished-at="2020-08-22T19:05:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC__02_Subtraction status=SUCCESS method=SimpleCalculations.TC__02_Subtraction()[pri:0, instance:com.GoogleCalculatorRegression.tests.SimpleCalculations@23f7d05d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.GoogleCalculatorRegression.tests.SimpleCalculations -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

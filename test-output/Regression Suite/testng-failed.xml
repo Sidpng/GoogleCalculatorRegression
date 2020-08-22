@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="Regression Tests(failed)">
+    <classes>
+      <class name="com.GoogleCalculatorRegression.tests.SimpleCalculations">
+        <methods>
+          <include name="TC_01_Addition"/>
+          <include name="reportSetup"/>
+          <include name="tearDownExtent"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.GoogleCalculatorRegression.tests.SimpleCalculations -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

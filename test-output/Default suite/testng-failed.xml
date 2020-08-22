@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.GoogleCalculatorRegression.tests.SimpleCalculations">
+        <methods>
+          <include name="TC_03_Multiply"/>
+          <include name="reportSetup"/>
+          <include name="tearDownExtent"/>
+          <include name="TC_05_Percent"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="TC__02_Subtraction"/>
+          <include name="TC_04_Divide"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.GoogleCalculatorRegression.tests.SimpleCalculations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

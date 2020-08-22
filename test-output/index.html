@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
+              <span class="suite-name border-passed">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
+                    <span>C:\Users\siddh\OneDrive\Desktop\Appium-Eclipseworkshop\GoogleCalculatorRegression\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.SimpleCalculations" hash-for-method="TC_01_Addition">TC_01_Addition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.SimpleCalculations" hash-for-method="TC_03_Multiply">TC_03_Multiply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.SimpleCalculations" hash-for-method="TC_04_Divide">TC_04_Divide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.SimpleCalculations" hash-for-method="TC_05_Percent">TC_05_Percent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_06_SinCheck">TC_06_SinCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_07_CosCheck">TC_07_CosCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_08_TanCheck">TC_08_TanCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_09_factorialCheck">TC_09_factorialCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_10_parenthesisCheck">TC_10_parenthesisCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_11_logCheck">TC_11_logCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_12_naturalLogCheck">TC_12_naturalLogCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_13_squareRootCheck">TC_13_squareRootCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.AdvancedCalculations" hash-for-method="TC_14_piCheck">TC_14_piCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_15_inverseCosCheck">TC_15_inverseCosCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_16_tenToPowerOf">TC_16_tenToPowerOf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_17_squareCheck">TC_17_squareCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_18_inverseSinCheck">TC_18_inverseSinCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_19_inverseTanCheck">TC_19_inverseTanCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.InverseCalculations" hash-for-method="TC_20_exponentialCheck">TC_20_exponentialCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.GoogleCalculatorRegression.tests.SimpleCalculations" hash-for-method="TC__02_Subtraction">TC__02_Subtraction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.GoogleCalculatorRegression.tests.SimpleCalculations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_Addition">
+                  </a> <!-- TC_01_Addition -->
+                  <span class="method-name">TC_01_Addition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_Multiply">
+                  </a> <!-- TC_03_Multiply -->
+                  <span class="method-name">TC_03_Multiply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_Divide">
+                  </a> <!-- TC_04_Divide -->
+                  <span class="method-name">TC_04_Divide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_Percent">
+                  </a> <!-- TC_05_Percent -->
+                  <span class="method-name">TC_05_Percent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC__02_Subtraction">
+                  </a> <!-- TC__02_Subtraction -->
+                  <span class="method-name">TC__02_Subtraction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.GoogleCalculatorRegression.tests.AdvancedCalculations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_SinCheck">
+                  </a> <!-- TC_06_SinCheck -->
+                  <span class="method-name">TC_06_SinCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_CosCheck">
+                  </a> <!-- TC_07_CosCheck -->
+                  <span class="method-name">TC_07_CosCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_TanCheck">
+                  </a> <!-- TC_08_TanCheck -->
+                  <span class="method-name">TC_08_TanCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09_factorialCheck">
+                  </a> <!-- TC_09_factorialCheck -->
+                  <span class="method-name">TC_09_factorialCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_10_parenthesisCheck">
+                  </a> <!-- TC_10_parenthesisCheck -->
+                  <span class="method-name">TC_10_parenthesisCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_11_logCheck">
+                  </a> <!-- TC_11_logCheck -->
+                  <span class="method-name">TC_11_logCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_12_naturalLogCheck">
+                  </a> <!-- TC_12_naturalLogCheck -->
+                  <span class="method-name">TC_12_naturalLogCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_13_squareRootCheck">
+                  </a> <!-- TC_13_squareRootCheck -->
+                  <span class="method-name">TC_13_squareRootCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_14_piCheck">
+                  </a> <!-- TC_14_piCheck -->
+                  <span class="method-name">TC_14_piCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.GoogleCalculatorRegression.tests.InverseCalculations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_15_inverseCosCheck">
+                  </a> <!-- TC_15_inverseCosCheck -->
+                  <span class="method-name">TC_15_inverseCosCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_16_tenToPowerOf">
+                  </a> <!-- TC_16_tenToPowerOf -->
+                  <span class="method-name">TC_16_tenToPowerOf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_17_squareCheck">
+                  </a> <!-- TC_17_squareCheck -->
+                  <span class="method-name">TC_17_squareCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_18_inverseSinCheck">
+                  </a> <!-- TC_18_inverseSinCheck -->
+                  <span class="method-name">TC_18_inverseSinCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_19_inverseTanCheck">
+                  </a> <!-- TC_19_inverseTanCheck -->
+                  <span class="method-name">TC_19_inverseTanCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_20_exponentialCheck">
+                  </a> <!-- TC_20_exponentialCheck -->
+                  <span class="method-name">TC_20_exponentialCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\siddh\OneDrive\Desktop\Appium-Eclipseworkshop\GoogleCalculatorRegression\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Tests&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.GoogleCalculatorRegression.tests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.GoogleCalculatorRegression.tests.AdvancedCalculations&quot;/&gt;
+      &lt;class name=&quot;com.GoogleCalculatorRegression.tests.BaseClass&quot;/&gt;
+      &lt;class name=&quot;com.GoogleCalculatorRegression.tests.InverseCalculations&quot;/&gt;
+      &lt;class name=&quot;com.GoogleCalculatorRegression.tests.SimpleCalculations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Tests --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_14_piCheck')
+data.setCell(0, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(0, 3, 6096);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC__02_Subtraction')
+data.setCell(1, 2, 'com.GoogleCalculatorRegression.tests.SimpleCalculations')
+data.setCell(1, 3, 4843);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_06_SinCheck')
+data.setCell(2, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(2, 3, 4759);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_10_parenthesisCheck')
+data.setCell(3, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(3, 3, 4652);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_03_Multiply')
+data.setCell(4, 2, 'com.GoogleCalculatorRegression.tests.SimpleCalculations')
+data.setCell(4, 3, 4449);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_08_TanCheck')
+data.setCell(5, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(5, 3, 4017);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_12_naturalLogCheck')
+data.setCell(6, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(6, 3, 4003);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_15_inverseCosCheck')
+data.setCell(7, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(7, 3, 3782);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_04_Divide')
+data.setCell(8, 2, 'com.GoogleCalculatorRegression.tests.SimpleCalculations')
+data.setCell(8, 3, 3612);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_13_squareRootCheck')
+data.setCell(9, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(9, 3, 3584);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_01_Addition')
+data.setCell(10, 2, 'com.GoogleCalculatorRegression.tests.SimpleCalculations')
+data.setCell(10, 3, 3446);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_11_logCheck')
+data.setCell(11, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(11, 3, 3405);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_07_CosCheck')
+data.setCell(12, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(12, 3, 3303);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_20_exponentialCheck')
+data.setCell(13, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(13, 3, 3181);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_05_Percent')
+data.setCell(14, 2, 'com.GoogleCalculatorRegression.tests.SimpleCalculations')
+data.setCell(14, 3, 2911);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_18_inverseSinCheck')
+data.setCell(15, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(15, 3, 2867);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_17_squareCheck')
+data.setCell(16, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(16, 3, 2741);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_19_inverseTanCheck')
+data.setCell(17, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(17, 3, 2436);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_16_tenToPowerOf')
+data.setCell(18, 2, 'com.GoogleCalculatorRegression.tests.InverseCalculations')
+data.setCell(18, 3, 2401);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_09_factorialCheck')
+data.setCell(19, 2, 'com.GoogleCalculatorRegression.tests.AdvancedCalculations')
+data.setCell(19, 3, 2364);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.GoogleCalculatorRegression.tests.SimpleCalculations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDownExtent</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.GoogleCalculatorRegression.tests.BaseClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDownExtent</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.GoogleCalculatorRegression.tests.InverseCalculations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDownExtent</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.GoogleCalculatorRegression.tests.AdvancedCalculations</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">TC_06_SinCheck</span>
+                <span class="method-start">26749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_06_SinCheck status=SUCCESS method=AdvancedCalculations.TC_06_SinCheck()[pri:0, i...)</span>
+                <span class="method-start">31511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_07_CosCheck</span>
+                <span class="method-start">31516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_07_CosCheck status=SUCCESS method=AdvancedCalculations.TC_07_CosCheck()[pri:0, i...)</span>
+                <span class="method-start">34820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_08_TanCheck</span>
+                <span class="method-start">34820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_08_TanCheck status=SUCCESS method=AdvancedCalculations.TC_08_TanCheck()[pri:0, i...)</span>
+                <span class="method-start">38837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_09_factorialCheck</span>
+                <span class="method-start">38837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_09_factorialCheck status=SUCCESS method=AdvancedCalculations.TC_09_factorialChec...)</span>
+                <span class="method-start">41202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_10_parenthesisCheck</span>
+                <span class="method-start">41202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_10_parenthesisCheck status=SUCCESS method=AdvancedCalculations.TC_10_parenthesis...)</span>
+                <span class="method-start">45855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_11_logCheck</span>
+                <span class="method-start">45855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_11_logCheck status=SUCCESS method=AdvancedCalculations.TC_11_logCheck()[pri:0, i...)</span>
+                <span class="method-start">49262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_12_naturalLogCheck</span>
+                <span class="method-start">49264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_12_naturalLogCheck status=SUCCESS method=AdvancedCalculations.TC_12_naturalLogCh...)</span>
+                <span class="method-start">53272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_13_squareRootCheck</span>
+                <span class="method-start">53275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_13_squareRootCheck status=SUCCESS method=AdvancedCalculations.TC_13_squareRootCh...)</span>
+                <span class="method-start">56860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_14_piCheck</span>
+                <span class="method-start">56863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_14_piCheck status=SUCCESS method=AdvancedCalculations.TC_14_piCheck()[pri:0, ins...)</span>
+                <span class="method-start">62965 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.GoogleCalculatorRegression.tests.InverseCalculations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_15_inverseCosCheck</span>
+                <span class="method-start">62971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_15_inverseCosCheck status=SUCCESS method=InverseCalculations.TC_15_inverseCosChe...)</span>
+                <span class="method-start">66755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_16_tenToPowerOf</span>
+                <span class="method-start">66756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_16_tenToPowerOf status=SUCCESS method=InverseCalculations.TC_16_tenToPowerOf()[p...)</span>
+                <span class="method-start">69159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_17_squareCheck</span>
+                <span class="method-start">69160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_17_squareCheck status=SUCCESS method=InverseCalculations.TC_17_squareCheck()[pri...)</span>
+                <span class="method-start">71905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_18_inverseSinCheck</span>
+                <span class="method-start">71908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_18_inverseSinCheck status=SUCCESS method=InverseCalculations.TC_18_inverseSinChe...)</span>
+                <span class="method-start">74777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_19_inverseTanCheck</span>
+                <span class="method-start">74782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_19_inverseTanCheck status=SUCCESS method=InverseCalculations.TC_19_inverseTanChe...)</span>
+                <span class="method-start">77223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_20_exponentialCheck</span>
+                <span class="method-start">77224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_20_exponentialCheck status=SUCCESS method=InverseCalculations.TC_20_exponentialC...)</span>
+                <span class="method-start">80406 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.GoogleCalculatorRegression.tests.SimpleCalculations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_01_Addition</span>
+                <span class="method-start">80417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_01_Addition status=SUCCESS method=SimpleCalculations.TC_01_Addition()[pri:0, ins...)</span>
+                <span class="method-start">83869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_03_Multiply</span>
+                <span class="method-start">83873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_03_Multiply status=SUCCESS method=SimpleCalculations.TC_03_Multiply()[pri:0, ins...)</span>
+                <span class="method-start">88325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_04_Divide</span>
+                <span class="method-start">88326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_04_Divide status=SUCCESS method=SimpleCalculations.TC_04_Divide()[pri:0, instanc...)</span>
+                <span class="method-start">91939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_05_Percent</span>
+                <span class="method-start">91941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC_05_Percent status=SUCCESS method=SimpleCalculations.TC_05_Percent()[pri:0, insta...)</span>
+                <span class="method-start">94853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC__02_Subtraction</span>
+                <span class="method-start">94854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC__02_Subtraction status=SUCCESS method=SimpleCalculations.TC__02_Subtraction()[pr...)</span>
+                <span class="method-start">99700 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.GoogleCalculatorRegression.tests.AdvancedCalculations</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99703 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownExtent</span>
+                <span class="method-start">99899 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
